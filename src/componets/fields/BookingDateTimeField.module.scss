@@ -1,0 +1,19 @@
+.dateTimeInput {
+  width: 200px;
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  :global(.rs-picker-toggle) {
+    border: none !important;
+    padding: 0 !important;
+  }
+  :global(.rs-picker-toggle-value) {
+    color: #545252 !important;
+  }
+  :global(.rs-picker-toggle-clean) {
+    display: none !important;
+  }
+  :global(.rs-picker-toggle-caret) {
+    display: none !important;
+  }
+}

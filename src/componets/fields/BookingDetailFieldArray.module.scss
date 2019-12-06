@@ -1,0 +1,16 @@
+@import '../../static/scss/variables.scss';
+.detailTable {
+  width: 100%;
+  margin-top: 20px;
+  td {
+    padding: 10px;
+    // text-align: center;
+  }
+  .detailTableChild {
+    border-top: 1px solid #ddd;
+  }
+  .detailTableHeader {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+}
